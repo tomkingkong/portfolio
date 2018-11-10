@@ -1,0 +1,82 @@
+// .ProjectCard {
+//   border-radius: 1rem 2rem 8rem 1rem;
+//   background: rgb(85, 53, 59);
+//   position: relative;
+//   height: 15rem;
+//   width: 40rem;
+//   margin: 0.5rem 0;
+// }
+
+// .project__content {
+//   border-radius: 0.5rem 1.5rem 0.5rem 0.5rem;
+//   position: absolute;
+//   background: cornsilk;
+//   height: 14rem;
+//   left: 0.5rem;
+//   top: 0.5rem;
+//   width: 76%;
+// }
+
+// .play__btn,
+// .code__btn {
+//   cursor: pointer;
+//   display: flex;
+//   align-items: flex-start;
+//   justify-content: center;
+//   position: absolute;
+//   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+//   font-size: 140%;
+//   right: 0.5rem;
+//   width: 8rem;
+// }
+
+// .play__btn:hover,
+// .code__btn:hover {
+//   background-color: rgba(255, 255, 255, 0.406);
+// }
+
+// .play__btn {
+//   border-radius: 0.5rem 1.5rem 0.5rem 0.5rem;
+//   background: cadetblue;
+//   top: 0.5rem;
+//   height: 5rem;
+// }
+
+// .code__btn {
+//   border-radius: 1.5rem 1.5rem 20rem 1.5rem;
+//   background: rebeccapurple;
+//   bottom: 0.5rem;
+//   height: 8.5rem;
+// }
+
+.ex_wrapper { 
+  background: rgb(85, 53, 59);
+  border: 0.2rem solid rgb(103, 103, 103);
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;  
+  position: relative;
+  height: 15rem;
+  width: 40rem;
+  margin: 0.5rem 0;
+  overflow: hidden;
+}
+
+.ex_wrapper > .project__content {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.817);
+  background-blend-mode: multiply;
+  border-radius: 0.8rem;
+  position: absolute;
+  top: 12.5rem;
+  height: 20rem;
+  width: 103.8%;
+  margin: 0 auto;
+  transform: rotate(4deg);
+  transition: all 0.15s ease-out;
+}
+
+.ex_wrapper:hover .project__content {
+  transform: rotate(-5deg);
+  top: 8rem;
+}

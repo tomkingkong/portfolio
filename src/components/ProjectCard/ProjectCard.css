@@ -1,0 +1,28 @@
+.ex_wrapper {
+  background: #55353b;
+  border: 0.2rem solid #676767;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 15rem;
+  width: 40rem;
+  margin: 0.5rem 0;
+  overflow: hidden; }
+
+.ex_wrapper > .project__content {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.817);
+  background-blend-mode: multiply;
+  border-radius: 0.8rem;
+  position: absolute;
+  top: 12.5rem;
+  height: 20rem;
+  width: 103.8%;
+  margin: 0 auto;
+  transform: rotate(4deg);
+  transition: all 0.15s ease-out; }
+
+.ex_wrapper:hover .project__content {
+  transform: rotate(-5deg);
+  top: 8rem; }

@@ -4,6 +4,8 @@ import './App.css';
 import { Routes } from '../Routes';
 import Projects from '../../containers/Projects';
 import SideBar from '../SideBar';
+import Grid from '../Grid';
+import Keyboard from '../keyboard';
 
 const styles = {
   display: 'flex'
@@ -12,10 +14,12 @@ const styles = {
 class App extends Component {
   render() {
     return (
-      <div className="App" style={styles}>
+      <div className="App" style={styles} >
         <SideBar />
-        <Projects />
+        {/* <Projects /> */}
         {/* <Routes /> */}
+        {/* <Grid /> */}
+        <Keyboard />
       </div>
     );
   }

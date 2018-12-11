@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { keyframes, css } from 'styled-components';
 
 const Wrapper = styled.section`
   background: #111116;
@@ -49,15 +48,6 @@ const Link = styled.div`
   &:hover > div {
     border-left: 2px groove #fff;
     height: 100%;
-  }
-`;
-
-const expand = keyframes`
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 2rem;
   }
 `;
 

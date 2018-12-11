@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const ProjectCard = styled.section`
   border-radius: 1rem 2rem 8rem 1rem;
-  background: #55353b;
+  background: #638EA4;
   position: relative;
   height: 15rem;
   width: 40rem;
@@ -22,7 +22,7 @@ const Play = styled.div`
   width: 8rem;
 
   border-radius: 0.5rem 1.5rem 0.5rem 0.5rem;
-  background: cadetblue;
+  background: #C7AD3C;
   top: 0.5rem;
   height: 5rem;
 
